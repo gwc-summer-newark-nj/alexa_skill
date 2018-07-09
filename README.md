@@ -30,7 +30,7 @@ The workshop consists of a set of exersizes, where each exersize contains a seri
 
 To begin we willwill be logging into a couple of Amazon related websites. Open up new tabs by clicking on the links below.  
 - [aws.amazon.com](https://aws.amazon.com) 
-- [developer.aamzon.com](developer.amazon.com) 
+- [developer.amazon.com](http://developer.amazon.com) 
 
 
 [Exercise 1](ex/ex1.md). 
