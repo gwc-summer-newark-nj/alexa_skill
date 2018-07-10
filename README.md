@@ -1,5 +1,12 @@
 # Welcome to the Girls Who Code Workshop
 
+## Overview
+1. What is an Alexa Skill? 
+2. Pair Programming -- Exercise 1 
+3. Pair Programming -- Exercise 2
+4. Demos
+
+
 ## What is an Alexa Skill?
 
 Did you know that 30000 Alexa skills exist today and that is 29000 more than existed two years ago. At that rate, how many Alexa skill will have been developed by 2020? 
