@@ -8,20 +8,20 @@ credentials? This is the site developers need to go to set up that access for us
 to create our Alexa skill.
 2. Login into [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) using the credentials we have supplied.
 3. Click on the Toolbar on the top right that says Your Alexa Consoles and click on Skills.
-![alt text](../img/alexa_skills_console.png "Your Alexa Consoles")
+![alt text](../img/alex_skills_console.png "Your Alexa Consoles")
 4. Click the button on the right that says Create Skill.
-5. Enter skill name: TV Show Findeas the model for your skill.
-6. Click Create Skill button on the right.
-![alt text](../img/alexa_dashboard.png "Custom Model Dashboard")
-7. Now we need to tell Alexa how to invoke our skill. Click Invocation. Type: `tv show finder` (notice only lower case letters). <br>
-Users will invoke our skill as follows:
- >  User: Alexa, ask TV Show Finder what station can I find Silicon Valley.
+5. Enter skill name: `TV Show Finder` as the model for your skill.
+6. Click `Create Skill` button on the right.
+![alt text](../img/alexa_create_skill.png "Custom Model Dashboard")
+7. Now we need to tell Alexa how to invoke our skill. Click `Invocation`. Then type: `tv show finder` (notice only lower case letters). <br>
+This is how users will invoke our skill. For example,
+ >  User: Alexa, ask TV Show Finder what channel can I find Silicon Valley.
 8. Next we need to tell Alexa how we expect users to interact with our Skill and what to do when Alexa hears those phrases.
 > What phrases will users say to interact with our skill?
 > What should Alexa do once hearing those phrases?
 
-For now, we are going to make it super simple. Click JSON Editor on the left column.
-Select the entire interaction model that shows up in the editor, and delete it. Then copy our interaction model below and paste into
+9. For now, we are going to make it super simple. Click `JSON Editor` on the left column.
+10. Select the entire interaction model that shows up in the editor, and delete it. Then copy our interaction model below and paste into
 JSON editor.
 
 ```java
