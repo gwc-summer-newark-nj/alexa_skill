@@ -8,16 +8,16 @@ credentials? This is the site developers need to go to set up that access for us
 to create our Alexa skill.
 2. Login into [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) using the credentials we have supplied.
 3. Click on the Toolbar on the top right that says Your Alexa Consoles and click on Skills.
-<a href=img/alexa_skills_console.png> Your Alexa Consoles </a>
+![alt text](img/alexa_skills_console.png "Your Alexa Consoles")
 4. Click the button on the right that says Create Skill.
 5. Enter skill name: TV Show Findeas the model for your skill.
 6. Click Create Skill button on the right.
-<a href=img/alexa_dashboard.png>Custom Model Dashboard</a>
+![alt text](img/alexa_dashboard.png "Custom Model Dashboard")
 7. Now we need to tell Alexa how to invoke our skill. Click Invocation. Type: `tv show finder` (notice only lower case letters). <br>
 Users will invoke our skill as follows:
-```
-  User: Alexa, ask TV Show Finder what station can I find Silicon Valley.
-```
+
+ >  User: Alexa, ask TV Show Finder what station can I find Silicon Valley.
+
 8. Next we need to tell Alexa how we expect users to interact with our Skill and what to do when Alexa hears those phrases.
 What phrases will users say to interact with our skill? What should Alexa do once hearing those phrases?
 
