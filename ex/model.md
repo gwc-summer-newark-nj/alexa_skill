@@ -15,12 +15,10 @@ to create our Alexa skill.
 ![alt text](img/alexa_dashboard.png "Custom Model Dashboard")
 7. Now we need to tell Alexa how to invoke our skill. Click Invocation. Type: `tv show finder` (notice only lower case letters). <br>
 Users will invoke our skill as follows:
-
  >  User: Alexa, ask TV Show Finder what station can I find Silicon Valley.
-
 8. Next we need to tell Alexa how we expect users to interact with our Skill and what to do when Alexa hears those phrases.
-What phrases will users say to interact with our skill? What should Alexa do once hearing those phrases?
-
+> What phrases will users say to interact with our skill?
+> What should Alexa do once hearing those phrases?
 For now, we are going to make it super simple. Click JSON Editor on the left column.
 Select the entire interaction model that shows up in the editor, and delete it. Then copy our interaction model below and paste into
 JSON editor.
