@@ -1,7 +1,17 @@
 # Creating an Interaction Model
 
 ## Overview
+An interaction model defines how a user interacts with your skill. This is called a `voice interface`.
+To define the voice interface, you map users' *spoken input* to the *intents* your lambda function can handle.
 
+To define the interaction model, you supply the following inputs:
+
+* Intents : An intent represents an action that fulfills a user's spoken request. Intents can optionally have arguments called slots.
+* Sample utterances : A set of likely spoken phrases mapped to the intents. This should include as many representative phrases as possible.
+
+
+
+## Exercise
 1. Go to: [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) This is the Amazon developer site providing access to a set of tools
 used to develop programs that interact with Amazon. For example, have you ever gone to a web-site or app that allows you to login with your amazon
 credentials? This is the site developers need to go to set up that access for users. For our case, we will be using [https://developer.amazon.com](https://developer.amazon.com)
