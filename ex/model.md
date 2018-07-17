@@ -1,13 +1,15 @@
 # Creating an Interaction Model
 
 ## Overview
-An interaction model defines how a user interacts with your skill. This is called a `voice interface`.
+For this exercise, we are going to create an interaction model. An interaction model
+defines how a user interacts with your skill. You can think of this as the `voice interface`.
 To define the voice interface, you map users' *spoken input* to the *intents* your lambda function can handle.
 
 To define the interaction model, you supply the following inputs:
 
-* Intents : An intent represents an action that fulfills a user's spoken request. Intents can optionally have arguments called slots.
-* Sample utterances : A set of likely spoken phrases mapped to the intents. This should include as many representative phrases as possible.
+* **Invocation name**: a name that identifies the skill. The user includes this name when initiating a conversation with your skill.
+* **Intents**: An intent represents an action that fulfills a user's spoken request. Intents can optionally have arguments called slots.
+* **Sample utterances**: A set of likely spoken phrases mapped to the intents. This should include as many representative phrases as possible.
 
 
 
@@ -19,7 +21,7 @@ to create our Alexa skill.
 2. Login into [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) using the credentials we have supplied.
 3. Click on the Toolbar on the top right that says Your Alexa Consoles and click on Skills.
 ![alt text](../img/alex_skills_console.png "Your Alexa Consoles")
-4. Click the button on the right that says Create Skill.
+4. Click the button on the right that says `Create Skill`.
 5. Enter skill name: `TV Show Finder` as the model for your skill.
 6. Click `Create Skill` button on the right.
 ![alt text](../img/alexa_create_skill.png "Custom Model Dashboard")
@@ -72,6 +74,7 @@ JSON editor.
 }
 
 ```
+
 9. Click `Save Model` at the top of the page. If there are any errors, try to figure out the problem or ask a volunteer to help you out.
 10. Once your have saved successfully, then click `Build Model`. This will take a couple of minutes to complete.
 11. Click on `Endpoint` from the left-hand side menu. This is where we will specify what Lambda function to call when a user interacts with our Alexa Skill.
