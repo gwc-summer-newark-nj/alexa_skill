@@ -7,7 +7,7 @@ in the previous section. The lambda function will know how to handle the respons
 
 
 ## Exercise
-1. Go to [https://aws.amazon.com/lambda] (https://aws.amazon.com/lambda).
+1. Go to [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda).
 2. Login with the credentials provided.
 3. Click the orange `Create function` on the right hand side fo the screen.
 4. Next fill in the form with the follow information:
@@ -192,7 +192,8 @@ def lambda_handler(event, context):
         return on_session_ended(event['request'], event['session'])
 ```
 
-7. Scroll up in the `Designer` section. Add a trigger. Click `Alexa Skills Kit`.
+7. Scroll up in the `Designer` section. Add a trigger. Click `Alexa Skills Kit`. Then click on configure Alexa Skill.
+Need to copy Skill Id from [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa)
 8. Click Save.
 
 <a href="link.md"> Next link model and lambda function.</a>
