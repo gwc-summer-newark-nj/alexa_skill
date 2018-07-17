@@ -12,10 +12,9 @@ in the previous section. The lambda function will know how to handle the respons
 3. Click the orange `Create function` on the right hand side fo the screen.
 4. Next fill in the form with the follow information:
 ![alt text](../img/lambda_create_function.png "Create Lambda Function")
-
-> Name: `alexa-tv-skill`
-> Runtime: `Python 3.6`
-> Role: `Create a custom role.` Next screen click `Allow`.
+...Name: `alexa-tv-skill`
+...Runtime: `Python 3.6`
+...Role: `Create a custom role.` Next screen click `Allow`.
 5. Click `Create function`
 6. Scroll down to the `Function Code` section. Go to [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/ex1.py](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/ex1.py)
 7. The python code for the lambda function should appear. Click on Raw.
