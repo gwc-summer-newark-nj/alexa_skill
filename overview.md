@@ -35,4 +35,5 @@ To begin we willwill be logging into a couple of Amazon related websites. Open u
 
 
 ## References
-* https://www.youtube.com/watch?v=ei_q4saWwcE
+* [Youtube video] (https://www.youtube.com/watch?v=ei_q4saWwcE)
+

@@ -9,7 +9,8 @@ For this part of the tutorial, we will test when invoking our Alexa skill, the r
 ![alt text](../img/alexa_test.png "Your Alexa Consoles")
 2. Click and hold the mic icon and say:
 > Alexa ask TV Show Finder what is your favorite show?
-3. If Alexa responses, then you have successfully compelted the first exercise!! Nice job!
+3. If Alexa responsds with the favorite tv show you entered in your lambda function, then you have successfully
+completed the first exercise!! Nice job!
 
 
 

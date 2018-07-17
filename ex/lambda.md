@@ -19,16 +19,7 @@ in the previous section. The lambda function will know how to handle the respons
 5. Click `Create function`
 6. Scroll down to the `Function Code` section. Paste in:
 
-```
-
-"""
-This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
-The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well
-as testing instructions are located at http://amzn.to/1LzFrj6
-
-For additional samples, visit the Alexa Skills Kit Getting Started guide at
-http://amzn.to/1LGWsLG
-"""
+```python
 
 from __future__ import print_function
 
@@ -94,12 +85,8 @@ def handle_session_end_request():
         card_title, speech_output, None, should_end_session))
 
 
-def get_tv_show_from_session(intent, session):
-    """ If we wanted to initialize the session to have some attributes we could
-    add those here
-    """
+def get_tv_show(intent, session):
 
-    session_attributes = {}
     card_title = "TV Show"
     speech_output = "My favorite tv show is Silicon Valley. "
 
@@ -143,7 +130,7 @@ def on_intent(intent_request, session):
 
     # Dispatch to your skill's intent handlers
     if intent_name == "GetFavoriteTvShowIntent":
-        return get_tv_show_from_session(intent, session)
+        return get_tv_show(intent, session)
     elif intent_name == "AMAZON.HelpIntent":
         return get_welcome_response()
     elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
