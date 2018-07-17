@@ -18,7 +18,8 @@ in the previous section. The lambda function will know how to handle the respons
 > Role: `Create a custom role.` Next screen click `Allow`.
 5. Click `Create function`
 6. Scroll down to the `Function Code` section. Paste in:
-```python
+
+```
 
 """
 This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
