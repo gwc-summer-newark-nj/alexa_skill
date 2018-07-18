@@ -1,9 +1,9 @@
 # Creating a Lambda Function
 
 ## Overview
-An AWS lambda function let's you run code without having a server. It is also known as a server-less function.
-We are going to write a lambda function that will be invoked when a user utters one of the phrases entered
-in the previous section. The lambda function will know how to handle the response from Alexa and return a response.
+An AWS lambda function let's us run code without having a server. It is also known as a server-less function.
+We are going to write a lambda function, which is invoked when a user utters one of the phrases from
+the previous section. The lambda function will know how to handle the request from Alexa and return a response.
 
 
 ## Exercise
@@ -15,7 +15,10 @@ in the previous section. The lambda function will know how to handle the respons
 * Name: `alexa-tv-skill`
 * Runtime: `Python 3.6`
 * Role: `Create a custom role.` Next screen click `Allow`.
-5. Click `Create function`
+5. Click the orange `Create function`
+7. Starting with the `Designer` section, under `Add a trigger`. Click `Alexa Skills Kit`.
+8. A `Configure triggers` section appears. Paste the `Skill Id` from
+from [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) in to the `Skill ID` box. Click `Add`
 6. Scroll down to the `Function Code` section. Go to [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/ex1.py](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/ex1.py)
 7. The python code for the lambda function should appear. Click on Raw.
 8. Copy the python code and paste in the aws lambda editor.
@@ -38,8 +41,7 @@ def get_tv_show(intent, session):
 
 ```
 
-7. Scroll up in the `Designer` section. Add a trigger. Click `Alexa Skills Kit`. Then click on configure Alexa Skill.
-Need to copy Skill Id from [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa)
+
 8. Click Save.
 
 [Next: link together model and lambda function](link.md)
