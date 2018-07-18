@@ -13,7 +13,7 @@ The types of utterance we expect our extended skill to respond to our:
 
 ## Step 1: [Extending the interaction model to use slots](slots.md)
 ## Step 2: [Updating the Lambda Function](lambdaupdate.md)
-## Step 4: [Testing](test2.md)
+## Step 3: [Testing](test2.md)
 
 1. using slots with the interaction model.
 2. Extending Lambda function with slots.

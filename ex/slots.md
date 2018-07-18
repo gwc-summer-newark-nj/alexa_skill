@@ -11,52 +11,43 @@ model to contain slots. The slots will be place holders for a TV Show.
 The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` around show. These are important!
 
 > Alexa, when is {SHOW} on?
+
 > Alexa, What time is {SHOW} on?
+
 > What channel is {SHOW} on?
+
 > What is {SHOW} about?
 
+## Exercise
+
+1. Go to [https://developer.amazon.com/lambda](https://developer.amazon.com/lambda)
+2. Go to the `JSON Editor` under the Buld tab.
+3. Update the interaction model to include an additional intent. You can copy and paste the entire interaction model from repo:
+[https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json)
+
+
+
 ```java
+
 {
-    "interactionModel": {
-        "languageModel": {
-            "invocationName": "tv show finder",
-            "intents": [
-                {
-                    "name": "AMAZON.FallbackIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.CancelIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.HelpIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.StopIntent",
-                    "samples": []
-                },
-                {
-                    "name": "GetFavoriteTvShowIntent",
-                    "samples" : [
-                      "What is your favorite show",
-                      "What is your favorite tv show",
-                      "What show do you like the best"
+    "name": "GetTvShowChannelIntent",
+    "slots" : [
+     {
+      "name": "SHOW",
+      "type": "AMAZON.SearchQuery"",
+     }
 
-                    ]
-                }
-            ],
-            "types": []
-        }
-    }
+    ]
+    "samples" : [
+      "What channel is {SHOW} on",
+      "What network can I find my {SHOW}""
+     ]
+
 }
-
-
 
 ```
 
-<a href="lambdaupdate.md"> Next: Extending lambda function</a>
+[Next: Extending our lambda function](lambdaupdate.md)
 
 ## References
 [https://developer.amazon.com/docs/custom-skills/create-intents-utterances-and-slots.html](https://developer.amazon.com/docs/custom-skills/create-intents-utterances-and-slots.html)

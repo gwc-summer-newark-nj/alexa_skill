@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tv show finder",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetFavoriteTvShowIntent",
+                    "samples" : [
+                      "What is your favorite show",
+                      "What is your favorite tv show",
+                      "What show do you like the best"
+
+                    ]
+                },
+                {
+                    "name": "GetTvShowChannelIntent",
+                    "slots" : [
+                     {
+                      "name": "SHOW",
+                      "type": "AMAZON.SearchQuery"",
+                     }
+
+                    ]
+                    "samples" : [
+                      "What channel is {SHOW} on",
+                      "What network can I find my {SHOW}""
+                     ]
+
+                }
+            ],
+            "types": []
+        }
+    }
+}
