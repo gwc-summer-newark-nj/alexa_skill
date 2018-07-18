@@ -1,12 +1,12 @@
 # Update Interaction Model with Slots
 
-> Alexa, when is <SHOW> on?
+> Alexa, when is {SHOW} on?
 
-> Alexa, What time is <SHOW> on?
+> Alexa, What time is {SHOW} on?
 
-> What channel is <SHOW> on?
+> What channel is {SHOW} on?
 
-> What is <SHOW> about?
+> What is {SHOW} about?
 
 ```java
 {
@@ -49,6 +49,7 @@
 
 ```
 
+<a href="lambdaupdate.md"> Next: Extending lambda function</a>
 
 ## References
 [https://developer.amazon.com/docs/custom-skills/create-intents-utterances-and-slots.html](https://developer.amazon.com/docs/custom-skills/create-intents-utterances-and-slots.html)
