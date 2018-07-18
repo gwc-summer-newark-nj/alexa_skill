@@ -23,27 +23,19 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
-    <section id="body" class="width">
-			<aside id="sidebar" class="column-left">
 
-			<header>
-				<h1><a href="#">anatine</a></h1>
+    <aside id="sidebar" class="column-left">
 
-				<h2>Welcome to my website!</h2>
+          <nav id="mainnav">
+              <ul>
+                <li class="selected-item"><a href="index.html">Home</a></li>
+                <li><a href="ex/ex1.html">Example 1</a></li>
+                <li><a href="ex/ex2.html">Example 2</a></li>
+               
+              </ul>
+          </nav>
+    </aside>
 
-			</header>
-
-			<nav id="mainnav">
-  				<ul>
-                  <li class="selected-item"><a href="index.html">Home</a></li>
-                  <li><a href="examples.html">Examples</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Solutions</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-			</nav>
-			</aside>
-     <section id="content" class="column-right">
 
     <main id="content" class="main-content" role="main">
       {{ content }}
