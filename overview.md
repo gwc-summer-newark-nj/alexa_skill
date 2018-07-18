@@ -33,11 +33,12 @@ To begin we will log into a couple of Amazon related websites. Open up new tabs 
 - [aws.amazon.com](https://aws.amazon.com)
 - [developer.amazon.com](http://developer.amazon.com)
 
+## Building an Alexa Skill
 
-[Exercise 1](ex/ex1.md)
-[Exercise 2](ex/ex2.md)
+- [Exercise 1: Alexa skill: Hello World!](ex/ex1.md)
+- [Exercise 2: Alexa skill: TV Show Finder](ex/ex2.md)
 
 
 ## References
 * [Youtube video](https://www.youtube.com/watch?v=ei_q4saWwcE)
-
+* [Alexa SKills Kit](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
