@@ -8,7 +8,7 @@ The types of utterance we expect our new skill to respond to are:
 > What network can I find House of Cards?
 > What channel can I find House of Cards?
 > What time is American Ninja Warrior on?
-> What is Young Sheldon about?
+> What is Young Sheldon about?  
 
 ## Exercise
 
