@@ -8,9 +8,8 @@
 ![alt text](../img/alexa_test.png "Your Alexa Consoles")
 2. Click and hold the mic icon and say:
 
-> Alexa ask TV Show Finder what channel is Silicon Valley on?
-
-> Alexa ask TV Show Finder what network is `FILL-IN-BLANK`
+> Alexa ask TV Show Finder what channel is Silicon Valley on? <br>
+> Alexa ask TV Show Finder what network is `FILL-IN-BLANK` <br>
 
 Did it work?
 
