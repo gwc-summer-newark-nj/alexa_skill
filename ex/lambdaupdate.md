@@ -1,7 +1,7 @@
 # Update lambda function to use slots
 
 Now when our lambda function is invoked, we can access the slot, which contains information about a specific show to query.
-Our lambda function will invoke a tv show API, which will return information about the TV show. We will create a response containg the
+Our lambda function will invoke a tv show API, which will return information about the TV show. We will create a response containing the
 information obtained about the TV show.
 
 ADD EXAMPLE HERE that contains example request and response.
