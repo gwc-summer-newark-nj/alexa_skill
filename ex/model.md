@@ -30,6 +30,7 @@ This is how users will invoke our skill. For example,
  >  User: Alexa, ask TV Show Finder what channel can I find Silicon Valley.
 8. Next we need to tell Alexa how we expect users to interact with our Skill and what to do when Alexa hears those phrases.
 > What phrases will users say to interact with our skill?
+
 > What should Alexa do once hearing those phrases?
 
 9. For now, we are going to make it super simple. Click `JSON Editor` on the left column.
@@ -81,5 +82,6 @@ JSON editor.
 For now, just click `Copy to Clipboard` next to your `Your Skill ID`.
 
 
-<a href="lambda.md"> Next implement a lambda function</a>
+[Next: Implement a lambda function](lambda.md)
+
 

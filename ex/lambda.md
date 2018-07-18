@@ -42,5 +42,6 @@ def get_tv_show(intent, session):
 Need to copy Skill Id from [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa)
 8. Click Save.
 
-<a href="link.md"> Next link model and lambda function.</a>
+[Next: link together model and lambda function](link.md)
+
 

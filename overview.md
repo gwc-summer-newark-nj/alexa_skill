@@ -25,13 +25,14 @@ There are four main steps to creating an Alexa skill.
 
 ## Getting Started
 
-Our workshop today involves Alexa and Alexa skills. The goal by the end of the workshop is to have written your own skill and test it out.
+Our workshop today involves implementing an Alexa skills. The goal by the end of the workshop is to have written
+your own skill and test it out.
 The workshop consists of a set of exercises, where each exercise contains a series of steps to be followed.
 We hope you enjoy learning about Alexa skills today!
 
-To begin we will log into a couple of Amazon related websites. Open up new tabs by clicking on the links below.
-- [aws.amazon.com](https://aws.amazon.com)
-- [developer.amazon.com](http://developer.amazon.com)
+To begin, log into a couple of Amazon related websites. Open up new tabs by clicking on the links below.
+- [(https://aws.amazon.com](https://aws.amazon.com)
+- [(https://developer.amazon.com](http://developer.amazon.com)
 
 ## Building an Alexa Skill
 
@@ -41,4 +42,4 @@ To begin we will log into a couple of Amazon related websites. Open up new tabs 
 
 ## References
 * [Youtube video](https://www.youtube.com/watch?v=ei_q4saWwcE)
-* [Alexa SKills Kit](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
+* [Alexa Skills Kit](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
