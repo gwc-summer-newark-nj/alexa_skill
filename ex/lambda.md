@@ -29,7 +29,7 @@ from [https://developer.amazon.com/alexa](https://developer.amazon.com/alexa) in
 def get_tv_show(intent, session):
 
     card_title = "TV Show"
-    #You can change the below string any string you want.
+    #You can change the string below to any string you want. This will be Alexa's reply.
     speech_output = "My favorite tv show is Silicon Valley. "
 
     # If the user either does not reply to the welcome message or says something
