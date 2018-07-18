@@ -14,4 +14,4 @@ completed the first exercise!! Nice job!
 
 
 
-<a href="ex2.md">Exercise 2: Extend your Alexa Skill</a>
+[Exercise 2: Extend your Alexa Skill](ex2.md)
