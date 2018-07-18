@@ -29,10 +29,10 @@ This is how users will invoke our skill. For example,
  >  User: Alexa, ask TV Show Finder what channel can I find Silicon Valley.
 8. Next we need to tell Alexa how we expect users to interact with our skill and what to do when Alexa hears those phrases. We need to
 figure out the follow:
-```
-What phrases will users say to interact with our skill? These are the samples.
-What should Alexa do once hearing those phrases? These are the intents.
-```
+
+> What phrases will users say to interact with our skill? These are the samples.\
+> What should Alexa do once hearing those phrases? These are the intents.
+
 9.  Click the `JSON Editor` on the left menu. We are going to add our own interaction model as shown below.
 10. Select the entire interaction model that shows up in the editor, and delete it. Then copy our interaction model below and paste into
 JSON editor.

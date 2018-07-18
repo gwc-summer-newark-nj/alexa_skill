@@ -10,12 +10,9 @@ model to contain slots. The slots will be place holders for a TV Show.
 
 The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` around show. These are important!
 
-> Alexa, when is {SHOW} on?
-
-> Alexa, What time is {SHOW} on?
-
-> What channel is {SHOW} on?
-
+> Alexa, when is {SHOW} on?\
+> Alexa, What time is {SHOW} on?\
+> What channel is {SHOW} on?\
 > What is {SHOW} about?
 
 ## Exercise
