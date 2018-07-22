@@ -63,7 +63,7 @@ def handle_session_end_request():
 
 
 def get_tv_show(intent, session):
-
+    session_attributes = {}
     card_title = "TV Show"
     #You can change the below string any string you want.
     speech_output = "My favorite tv show is Silicon Valley. "
