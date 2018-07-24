@@ -21,8 +21,8 @@ The following are some ideas if you are stuck, otherwise, you are free to come u
 }
 ```
 
-Then update the functions where the output text is constructed. You will need to add speech tags. For example, check out the code below. For more speech tags check out: [SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
-
+8. Update a function where the output text is constructed. You will need to add speech tags. For example, check out the code below. For more speech tags check out: [SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
+9. Save your changes, and test.
 ```java
 def get_tv_summary(intent, session):
     session_attributes = {}
