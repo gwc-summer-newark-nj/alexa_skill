@@ -50,3 +50,4 @@ To begin, log into a couple of Amazon related websites. Open up new tabs by clic
 ## References
 * [Youtube video](https://www.youtube.com/watch?v=ei_q4saWwcE)
 * [Alexa Skills Kit](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html)
+* [Alexa Design Guide](http://alexa.design/guide)

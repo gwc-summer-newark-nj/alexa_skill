@@ -18,8 +18,8 @@ The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` 
 ## Exercise
 
 1. Go to [https://developer.amazon.com/lambda](https://developer.amazon.com/lambda)
-2. Go to the `JSON Editor` under the Buld tab.
-3. Update the `interaction model` to include a few additional `intents`, where each intent contains `slots`. You can copy and paste the entire interaction model from the repo:
+2. Go to the `JSON Editor` under the Build tab.
+3. Update the `interaction model` to include a few additional `intents`, where each intent contains `slots`. Notice the name of the slot, `TV_SHOW`. You can copy and paste the entire interaction model from the repo:
 [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json)
 
 

@@ -1,44 +1,20 @@
 # Update lambda function to use slots
 
 Now when our lambda function is invoked, we can access the slot, which contains information about a specific show to query.
-Our lambda function will invoke a TV show API, which will return information about the TV show. We will create a response containing the
-information obtained about the TV show API.
+Our lambda function will invoke a TV Show API, which will return information about the TV show. We will create a response containing the
+information obtained from the TV Show API.
 
-ADD EXAMPLE HERE that contains example request and response.
+The TV Show API we are using is from: [Marketplace Mashape](https://market.mashape.com/dashboard). This is a site that provides a searchable listing of APIs for all sorts of things, like Movie listings, random quotes, food nutrition. I choose to use the TV Show API, however, we could be using any external api from our lambda function.   
+The TV Show API provides an interface that allows the user to query shows, actors, and schedules. 
+
+For this exercise, we are going to explore the TV Show API and update our lambda function to invoke the TV Show API, parse the response, and construct a response that ALExa understands. 
 
 
 ## Exercise
-
+1. Try out the TV Show API: [TV Show API]({https://market.mashape.com/tvjan/tvmaze). Type in a TV Show name and click `TEST ENDPOINT`. A JSON response will be returned. Look through the response to get an idea of what an API returns. 
 1. Go to [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda)
 2. Copy new Lambda function into editor: [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py)
-3. Check out the function named `TODO`. This is where we will add some code to remove the slot parameter and pass the value to `get_tv_show_info`.
-4. Construct a speech response from the map value returned from `get_tv_show_info`.
-
-
-The JSON map below illustrates the response returned from `get_tv_show_info`.
-
-```python
-
-{
-    "show": {
-        "schedule": {
-            "time": "20:30",
-            "days": [
-              "Thursday"
-            ]
-        },
-        "network": {
-            "id": 2,
-            "name": "CBS",
-             "country": {
-                "name": "United States",
-                "code": "US",
-                "timezone": "America/New_York"
-             }
-        }
-        "summary": "<p>For 9-year-old Sheldon Cooper, it isn't easy growing up in East Texas. Being a once-in-a-generation mind capable of advanced mathematics and science isn't always helpful in a land where church and football are king. And while the vulnerable, gifted and somewhat naïve Sheldon deals with the world, his very normal family must find a way to deal with him. His father, George, is struggling to find his way as a high school football coach and as father to a boy he doesn't understand. Sheldon's mother, Mary, fiercely protects and nurtures her son in a town where he just doesn't fit in. Sheldon's older brother, Georgie, does the best he can in high school, but it's tough to be cool when you're in the same classes with your odd 9-year-old brother. Finally, there's Sheldon's twin sister, Missy, who sometimes resents all the attention Sheldon gets, but also remains the one person who can reliably tell Sheldon the truth. For 10 years on THE BIG BANG THEORY, audiences have come to know the iconic, eccentric and extraordinary Sheldon Cooper. This single-camera, half-hour comedy gives us the chance to meet him in childhood, as he embarks on his innocent, awkward and hopeful journey toward the man he will become.</p>",
-     }
-}
-```
+3. Check out the new intents that are now recognized, `GetTvChannelIntent`, `GetTvTimeIntent`, `GetTvSummaryIntent`. Each intent invokes a corresponding function that invokes the TV Show API, and then parses the response, and then constructs a response for Alexa. Can you follow the flow? 
+4. Make sure you saved your Lambda Function in the AWS editor. Then you can move on to the next step.
 
 [Next: Test your latest Alexa skill](test2.md)
