@@ -11,9 +11,9 @@ model to contain slots. The slots will be place-holders for a TV Show.
 The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` around show. These are important!
 
 > Alexa, when is {SHOW} on? <br>
-> Alexa, What time is {SHOW} on? <br>
-> What channel is {SHOW} on? <br>
-> What is {SHOW} about?
+> Alexa, what time is {SHOW} on? <br>
+> Alexa, what channel is {SHOW} on? <br>
+> Alexa, what is {SHOW} about?
 
 ## Exercise
 

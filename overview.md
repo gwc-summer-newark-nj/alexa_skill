@@ -22,7 +22,7 @@ Writing an Alexa skill involves some new terminology:
 2. `Utterance`: A set of likely spoken phrases mapped to the intents. This should include as many representative phrases as possible.
 3. `Intent`: An intent represents an action that fulfills a user's spoken request. Intents can optionally have arguments called slots.
 4. `Invocation` name: the name used by the user to invoke an Alexa  skill. For example, Alexa ask the weather channel, what is the weather? The `weather channel` is the invocation name.  
-5. `Lambda function`: AWS Lambda is a service that allows code to run in the cloud. The user does not manage the server. A Lambda function is required to handle requests from Alexa, process them and return a response that Alexa understands. m 
+5. `Lambda function`: AWS Lambda is a service that allows code to run in the cloud. The user does not manage the server. A Lambda function is required to handle requests from Alexa, process them and return a response that Alexa understands. 
 
 
 
