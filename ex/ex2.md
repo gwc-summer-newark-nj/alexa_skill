@@ -5,8 +5,7 @@
 For this exercise, we are going to extend our Alexa skill to provide information about real TV shows.
 The types of utterance we expect our new skill to respond to are:
 
-> What network can I find House of Cards? <br>
-> What channel can I find House of Cards? <br>
+> What network can I find House of Cards? What channel can I find House of Cards? <br>
 > What time is American Ninja Warrior on? <br>
 > What is Young Sheldon about?
 

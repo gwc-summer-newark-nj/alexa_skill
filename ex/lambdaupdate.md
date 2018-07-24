@@ -1,8 +1,8 @@
 # Update lambda function to use slots
 
 Now when our lambda function is invoked, we can access the slot, which contains information about a specific show to query.
-Our lambda function will invoke a tv show API, which will return information about the TV show. We will create a response containing the
-information obtained about the TV show.
+Our lambda function will invoke a TV show API, which will return information about the TV show. We will create a response containing the
+information obtained about the TV show API.
 
 ADD EXAMPLE HERE that contains example request and response.
 
@@ -11,7 +11,7 @@ ADD EXAMPLE HERE that contains example request and response.
 
 1. Go to [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda)
 2. Copy new Lambda function into editor: [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py)
-3. Check out the function named `TODO`. This is where we will add some code to remove the slot parameter and pass to value to `get_tv_show_info`.
+3. Check out the function named `TODO`. This is where we will add some code to remove the slot parameter and pass the value to `get_tv_show_info`.
 4. Construct a speech response from the map value returned from `get_tv_show_info`.
 
 
