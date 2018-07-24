@@ -21,8 +21,7 @@ The following are some ideas if you are stuck, otherwise, you are free to come u
 }
 ```
 
-Then update the functions where the output text is constructed. You will need to add speech tags. For example, check out the code below.  
-For more speech tags check out: [SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
+Then update the functions where the output text is constructed. You will need to add speech tags. For example, check out the code below. For more speech tags check out: [SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
 
 ```java
 def get_tv_summary(intent, session):
@@ -45,13 +44,6 @@ def get_tv_summary(intent, session):
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
-text = 
-'<speak>' +
-    'Silicon valley is a show about ' + 
-    '<amazon:effect name="whispered">' + summary + '</amazon:effect>.' +
-    'Can you believe it?' +
-'</speak>'
-
 
 ``` 
 
