@@ -38,8 +38,8 @@ Our workshop today involves implementing an Alexa skill. The goal by the end of 
 We hope you enjoy learning about Alexa skills today!
 
 To begin, log into a couple of Amazon related websites. Open up new tabs by clicking on the links below.
-- [(https://aws.amazon.com](https://aws.amazon.com)
-- [(https://developer.amazon.com](http://developer.amazon.com)
+- [https://aws.amazon.com](https://aws.amazon.com)
+- [https://developer.amazon.com](http://developer.amazon.com)
 
 ## Building an Alexa Skill
 
