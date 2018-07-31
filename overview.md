@@ -12,7 +12,7 @@ At that rate, how many Alexa skill will be developed by 2020?
 ## Overview of Creating an Alexa Skill
 Alexa Skills can be implemented to do many things like ordering a pizza, telling you the weather, playing a game,
 turning on your lights, or any other thing you can imagine! There is a ton of information on the web to teach how to create an Alexa skill. 
-Check out the [Alexa Skills Kkit](https://developer.amazon.com/alexa-skills-kit) after this workshop to dig deeper into Alexa skill development.
+Check out the [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit) after this workshop to dig deeper into Alexa skill development.
 
 To get started today, we are going to learn some new terminology, and then learn how to create an Alexa skill.
 
