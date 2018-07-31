@@ -15,3 +15,5 @@
 
 Did it work?
 
+
+[Exercise 3: Customize your Alexa Skill](ex3.md)
