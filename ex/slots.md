@@ -5,7 +5,7 @@
 
 Sometime when we interact with Alexa we need to provide information, such as a City, Zipcode, or TV Show. To provide such information,
 we specify this information in the interaction model through the use of slots. A `slot` is used to capture a piece of information from the user when they interact
-with the skill. A slot can be though of as a parameter in a function.  In this exercise, we will update our interaction
+with the skill. A slot can be thought of as a parameter in a function.  In this exercise, we will update our interaction
 model to contain slots. The slots will be place-holders for a TV Show.
 
 The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` around show. These are important!
@@ -23,6 +23,7 @@ The following is an example illustrating a slot named `{SHOW}`. Notice the `{}` 
 [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/model2.json)
 
 
+Note: Don't copy this one... It is not complete. 
 
 ```java
                 {
