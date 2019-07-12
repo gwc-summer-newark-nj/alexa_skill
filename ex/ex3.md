@@ -12,7 +12,7 @@ The following are some ideas if you are stuck, otherwise, you are free to come u
 3. How could you clean up  the tv times? Can you convert the time to 12 hour time instead of military time? 
 4. Some shows are on everyday of the week. Can your skill handle that case?
 5. Customize the responses to how you think Alexa should respond, what makes sense to you?
-6. Do the interaction model sample utterance make sense? Are there additional utterances that you think would be better?i
+6. Do the interaction model sample utterance make sense? Are there additional utterances that you think would be better?
 
 
 Looking forward to seeing what you come up with!
