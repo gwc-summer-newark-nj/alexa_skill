@@ -23,13 +23,13 @@ the `outputSpeech` `type` is referenced as `plainText`. Alter the `type` to be `
 1. Update the `outputSpeech` values as shown above. 
 
 1. Update the function where the output text is constructed. You will need to add speech tags around the constructed output. It is up to you how you want Alexa to respond and sound. For example, the code below illustrates using `<amazon:effect >` tag and an `<emphasis level/>` tag within the `speech_output`. 
-
 For more speech tags, check out: [Supported SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html#ssml-supported) and for different audio sounds, check out: [Sounds](https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)
 
+1. Save your changes and test the results. You can alter the SSML and try out different sounds and effects. 
 
 
-9. Save your changes, and test.
-
+### Example code
+ 
 ```python
 def get_tv_summary(intent, session):
     session_attributes = {}
