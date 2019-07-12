@@ -20,7 +20,7 @@ the `outputSpeech` `type` is referenced as `plainText`. Alter the `type` to be `
 
 
 ### Steps for Exercise 3
-1. Update the `outputSpeech` values as shown above. 
+1. Update the `outputSpeech` values  in our function `build_speechlet_response` as shown above. 
 
 1. Update the function where the output text is constructed. You will need to add speech tags around the constructed output. It is up to you how you want Alexa to respond and sound. For example, the code below illustrates using `<amazon:effect >` tag and an `<emphasis level/>` tag within the `speech_output`. 
 For more speech tags, check out: [Supported SSML](https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html#ssml-supported) and for different audio sounds, check out: [Sounds](https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)
