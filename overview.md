@@ -3,8 +3,8 @@
 Alexa is Amazon’s voice service and the brain behind tens of millions of devices like the Echo family of devices including Echo Show and Echo Spot. 
 Alexa provides capabilities, or skills, that enable customers to create a more personalized experience. 
 
-Did you know that 30000 Alexa skills exist today and that is 29000 more than existed two years ago.
-At that rate, how many Alexa skill will be developed by 2020?
+Did you know that over 50000 Alexa skills exist today in the US marketplace, over 80000 Alexa skills worldwide and that is almost double the number of Alexa skills from last year.
+At that rate, there will easily be more than 100,000 Alexa skills by the end of 2019. 
 
 
 
