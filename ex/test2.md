@@ -16,4 +16,4 @@
 Did it work?
 
 
-[Exercise 3: Customize your Alexa Skill](ex3.md)
+[Exercise 3: Customize your Alexa Skill with SSML ](short/ex3.md)
