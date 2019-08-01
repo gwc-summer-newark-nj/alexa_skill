@@ -9,7 +9,6 @@ The `TV Show API` provides an interface that allows the user to query shows, act
 We are going to use the value of the slot in our lambda function and pass that value to the `TV Show API`.
 
 ## Exercise
-1. Try out the  [TV Show API](https://market.mashape.com/tvjan/tvmaze). Type in a TV Show name and click `TEST ENDPOINT`. A `JSON` response will be returned. Look through the response to get an idea of what an API can return. 
 1. Go to [https://aws.amazon.com/lambda](https://aws.amazon.com/lambda)
 2. Copy new Lambda function into editor: [https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py](https://github.com/gwc-summer-newark-nj/gwc-summer-newark-nj.github.io/blob/master/ex/lambda2.py)
 3. Check out the new intents that are now recognized, `GetTvChannelIntent`, `GetTvTimeIntent`, `GetTvSummaryIntent`. Each intent invokes a corresponding function that invokes the `TV Show API`, and then parses the response, and then constructs a response for Alexa. Can you follow the flow?
