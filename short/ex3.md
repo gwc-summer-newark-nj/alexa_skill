@@ -2,7 +2,7 @@
 
 ## Overview
 
-This exercise will explore SSML and Alexa.  SSML is Speech Synthesis Markup Language, where a markup language is a computer language that uses tags to define elements within a document. Some markup langauges you might be familiar with are HTML and XML. SSML is a markup language that provides a standard way to mark up text for the generation of synthetic speech. Alexa understands SSML and it can be used to alter Alexa's voice. 
+This exercise will explore SSML and Alexa.  SSML is Speech Synthesis Markup Language, where a markup language is a computer language that uses tags to define elements within a document. Some markup langauges you might be familiar with are HTML and XML. SSML is a markup language that provides a standard way to mark up text for the generation of synthetic speech. Alexa understands SSML and it can be used to alter Alexa's voice. Some fun SSML tags are: `<amazon:effect name="whispered">`, which applies a whispering affect to Alexa's voice. `<audio src="sound_file.mp3"/>`, which plays a short mp3 file. There is a library of sounds that can be explored.  
 
 
 ###  How to use SSML
