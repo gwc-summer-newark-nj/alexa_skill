@@ -45,7 +45,8 @@ To begin, log into a couple of Amazon related websites. Open up new tabs by clic
 
 - [Exercise 1: Alexa skill: Hello World!](ex/ex1.md)
 - [Exercise 2: Alexa skill: TV Show Finder](ex/ex2.md)
-- [Exercise 3: Alexa skill: Customize TV Show Finder](ex/ex3.md)
+- [Exercise 3: Alexa skill: Customize TV Show Finder with SSML](short/ex3.md)
+- [Exercise 4: Alexa skill: Customize TV Show Finder](ex/ex3.md)
 
 ## References
 * [Youtube video](https://www.youtube.com/watch?v=ei_q4saWwcE)

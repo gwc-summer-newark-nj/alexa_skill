@@ -50,4 +50,4 @@ def get_tv_summary(intent, session):
         card_title, speech_output, reprompt_text, should_end_session))
 
 ``` 
-
+ Next: [Exercise 4: Continue customizing your Alexa Skill](../ex/ex3.md) 
