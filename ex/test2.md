@@ -11,7 +11,7 @@
 > Alexa ask TV Show Finder what channel is Silicon Valley on? <br>
 > Alexa ask TV Show Finder what network is `FILL-IN-BLANK` <br>
 > Alexa ask TV Show Finder what is `FILL-IN-BLANK` about? 
-> Alexa ask TV Show Finder what time is `FILL-IN-BLANK?
+> Alexa ask TV Show Finder what time is `FILL-IN-BLANK`?
 
 Did it work?
 
